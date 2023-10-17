@@ -37,6 +37,9 @@ section::before{
 .home h3 {
     font-size: 64px;
 }
+.home img{
+    width: 100%;
+}
 .home .arrow img {
  width: 60px;
 }
@@ -122,6 +125,17 @@ section::before{
 .contact-form{
     border: 1px solid black;
     padding: 64px 32px;
+}
+@media only screen and (max-width: 768px){
+    .home img {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 578px){
+    section::before{
+        left: -10px;
+        font-size: 62px;
+    }
 }
 
 @keyframes upDown {

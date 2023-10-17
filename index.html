@@ -17,36 +17,36 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
           </div>
         </div>
       </nav>
       <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! I am</h3>
                 <h1 class="fw-bold">Hasan pane</h1>
                 <p>I am software Engineer based in indonesia</p>
                 <a class="btn"href="images/potrait.png" download>Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/potrait.png" alt="">
             </div>
         </div>
-        <div class=" arrow w-100 d-flex align-items-center flex-column mt-5">
-          <a class="text-decoration-none text-dark" href="#about"> More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+          <div class="text-dark"> More Info</div>
           <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow-column">
-        </div>
+          </a>
       </section>
       <section id="about" class="about container">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem vero saepe rerum accusamus ipsum, suscipit minus ut voluptatum, accusantium quaerat sint, eos quae temporibus qui culpa eaque perspiciatis enim dolore repudiandae necessitatibus neque facilis architecto blanditiis. Tenetur at eligendi adipisci, nostrum cupiditate assumenda voluptatibus aperiam ut architecto ipsam qui!</p>
@@ -88,10 +88,10 @@
       </section>
       <section id="work" class="work container"> 
           <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-5">
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur delectus ratione nisi obcaecati eligendi sunt provident sed facilis, quisquam voluptatibus, accusantium distinctio repellat magnam cum asperiores ea! Consequatur culpa mollitia quas, beatae debitis laudantium sequi expedita commodi qui nemo illo, harum quasi est libero officiis voluptatem distinctio provident, obcaecati eum!</p>
             </div>
-            <div class="col work-img">
+            <div class="col-12 col-6 work-img">
               <div id="work-1" class="work-img-item">
                 <img src="images/work-1.png" alt=" work 1">
               </div>
@@ -106,27 +106,27 @@
       </section>
       <section id="contact" class="contact container">
         <div class="row d-flex align-items-center gap-5">
-          <div class="col">
+          <div class="col-12 col-lg-6">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel eaque modi animi natus blanditiis ut similique, hic a laborum molestiae quidem at eos molestias autem est aspernatur ea, nihil facere neque. Placeat veniam ex, doloremque commodi veritatis ea non obcaecati.</p>
             <div class="row">
 
               <div class="col d-flex align-items-center">
-                <img src="images/Facebook.svg" alt="Facebook icon">
-                <p>Hasan pane</p>
+                <img class="w-25" src="images/Facebook.svg" alt="Facebook icon">
+                <p class="mb-0 ms-2">Hasan pane</p>
               </div>
 
               <div class="col d-flex align-items-center">
-                <img src="images/Instagram.svg" alt="Instagram icon">
-                <p>@hasan_pane</p>
+                <img class="w-25" src="images/Instagram.svg" alt="Instagram icon">
+                <p class="mb-0 ms-2">@hasan_pane</p>
               </div>
 
               <div class="col d-flex align-items-center">
-                <img src="images/Twitter.svg" alt="Twitter icon">
-                <p>Hasan pane</p>
+                <img class="w-25" src="images/Twitter.svg" alt="Twitter icon">
+                <p class="mb-0 ms-2">Hasan pane</p>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-lg-5">
             <form class="contact-form">
               <div class="mb-3">
                 <label for="imp_email" class="form-label">Email address</label>
