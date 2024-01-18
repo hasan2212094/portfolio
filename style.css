@@ -98,7 +98,7 @@ section::before{
     grid-area: work-1;
 }
 #work-1:hover::after{
-    content: 'web Project';
+    content: 'web project Absensi';
 }
 
 #work-2 {
